@@ -1,0 +1,21 @@
+{
+  "your_courses": "Ваши курсы",
+  "change_language": "Сменить язык",
+  "logout": "Выйти",
+  "watch_lecture": "Смотреть лекцию",
+  "splash_text": "Дистанционное обучение",
+  "login_title": "Войти",
+  "welcome_message": "Добро пожаловать на المتخصص -Специалист",
+  "phone_number_label": "Номер телефона",
+  "phone": "Телефон",
+  "phone_required": "Пожалуйста, введите номер телефона",
+  "phone_invalid": "Неверный номер",
+  "password_label": "Пароль",
+  "password": "Пароль",
+  "password_required": "Пожалуйста, введите пароль",
+  "enter_password": "Введите пароль",
+  "login_button": "Войти",
+  "course_details" : "Детали курса "
+
+}
+
