@@ -1,0 +1,21 @@
+{
+  "your_courses": "كورساتك",
+  "change_language": "تغيير اللغة",
+  "logout": "تسجيل الخروج",
+  "watch_lecture": "مشاهدة المحاضره",
+  "splash_text": "التعلم عن بعد",
+  "login_title": "تسجيل الدخول",
+  "welcome_message": "مرحبا في المتخصص -Специалист ",
+  "phone_number_label": "رقم الهاتف",
+  "phone": "الرقم",
+  "phone_required": "من فضلك ادخل رقم الهاتف",
+  "phone_invalid": "الرقم غير صحيح",
+  "password_label": "كلمة المرور",
+  "password": "كلمة المرور",
+  "password_required": "ادخل كلمة المرور من فضلك",
+  "enter_password": "ادخل كلمة المرور",
+  "login_button": "تسجيل الدخول" ,
+  "course_details" : "تفاصيل الكورس "
+
+
+}

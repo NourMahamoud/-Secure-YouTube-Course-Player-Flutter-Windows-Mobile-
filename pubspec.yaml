@@ -1,0 +1,56 @@
+name: Elmotakhasas
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  path: ^1.9.0
+  shared_preferences: ^2.3.2
+  dartz: ^0.10.1
+  provider: ^6.1.2
+  logger: ^2.6.1
+  webview_windows: ^0.1.0
+  easy_localization: ^3.0.8
+  youtube_player_iframe: ^5.2.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+  web:
+    generate: true
+    image_path: "assets/images/logo.png"
+    background_color: "#ffffff"
+    theme_color: "#000000"
+
+  windows:
+    generate: true
+    image_path: "assets/images/logo.png"
+    icon_size: 256 # min:48, max:256
+
+  macos:
+    generate: true
+    image_path: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/translations/
