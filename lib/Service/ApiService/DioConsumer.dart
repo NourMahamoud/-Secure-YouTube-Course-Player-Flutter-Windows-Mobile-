@@ -10,7 +10,7 @@ class  DioConsumer extends ApiConsumer {
   @override
   Future<Map<String, dynamic>> getCourseVideos({required String token, required int courseId}) async{
      try {
-       final response = await dio.get('https://amressa.top/api/course_videos.php',options: Options(
+       final response = await dio.get('your api',options: Options(
            headers: {
              'Content-Type': 'application/json',
              'Accept': 'application/json',
@@ -32,7 +32,7 @@ class  DioConsumer extends ApiConsumer {
   @override
   Future<Map<String, dynamic>> getCourses({required String token, required String endPoint})async {
    try {
-     final  response = await dio.get('https://amressa.top/api/my_courses.php',options: Options(
+     final  response = await dio.get('your api',options: Options(
        headers: {
          'Content-Type': 'application/json',
          'Accept': 'application/json',
@@ -50,7 +50,7 @@ class  DioConsumer extends ApiConsumer {
   Future  postUser({required UserModel user, required String endPoint}) async {
     try {
       final response  = await dio.post(
-          'https://amressa.top/api/login.php',
+          'your api',
           data: {
             "user_name": user.phoneNumber,
             "password": user.password,
